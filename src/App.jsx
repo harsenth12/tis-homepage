@@ -7,28 +7,30 @@ import Campus from "./components/sections/Campus";
 import Testimonials from "./components/sections/Testimonials";
 import Admissions from "./components/sections/Admissions";
 import Footer from "./components/layout/Footer";
-import ScrollProgress from "./components/animation/ScrollProgress";
-import CustomCursor from "./components/animation/CustomCursor";
+
+import ScrollProgress from "./components/Animation/ScrollProgress";
+import CustomCursor from "./components/Animation/CustomCursor";
 
 function App() {
   return (
     <>
-  <ScrollProgress />
-  <CustomCursor />  
-  <Navbar />
+      <ScrollProgress />
+      <CustomCursor />
 
-  <main>
-    <Hero />
-    <Stats />
-    <About />
-    <Academics />
-    <Campus />
-    <Testimonials />
-    <Admissions />
-  </main>
+      <Navbar />
 
-  <Footer />
-</>
+      <main>
+        <Hero />
+        <Stats />
+        <About />
+        <Academics />
+        <Campus />
+        <Testimonials />
+        <Admissions />
+      </main>
+
+      <Footer />
+    </>
   );
 }
 
